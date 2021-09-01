@@ -1,0 +1,30 @@
+{
+  "name": "reproduce-heatmap",
+  "packageManager": "yarn@3.0.1",
+  "scripts": {
+    "test": "jest",
+    "watch": "jest --watchAll"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "@babel/preset-react": "^7.14.5",
+    "@babel/runtime": "^7.15.3",
+    "@deck.gl/test-utils": "^8.5.6",
+    "@loaders.gl/core": "^3.0.11",
+    "@luma.gl/core": "^8.5.5",
+    "@luma.gl/gltools": "^8.5.5",
+    "@luma.gl/test-utils": "^8.5.5",
+    "@math.gl/web-mercator": "^3.5.4",
+    "@probe.gl/test-utils": "^3.4.0",
+    "gl": "^4.9.0",
+    "jest": "^27.1.0",
+    "math.gl": "^3.5.4",
+    "pngjs": "^6.0.0"
+  },
+  "dependencies": {
+    "@deck.gl/aggregation-layers": "^8.5.6",
+    "@deck.gl/core": "^8.5.6",
+    "@deck.gl/layers": "^8.5.6"
+  }
+}
